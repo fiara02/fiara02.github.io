@@ -1,0 +1,76 @@
+:root {
+  font-size: 16px;
+}
+
+.dotgothic16-regular {
+  font-family: "DotGothic16", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: azure;
+
+  font-family: "DotGothic16";
+}
+
+h1 {
+  position: fixed;
+  left: 300px;
+
+  font-size: 70px;
+}
+
+.slider {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+
+  font-size: 50px;
+  list-style: none;
+
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+}
+
+.diary {
+  margin: 0 0 10px 0;
+}
+
+.sns {
+  margin: 0 0 10px 3px;
+}
+
+.myself {
+  margin: 0 0 10px 2px;
+}
+
+.diaries {
+  position: fixed;
+  left: 270px;
+  top: 200px;
+
+  font-size: 20px;
+  list-style: none;
+}
+
+.comment {
+  position: fixed;
+  left: 300px;
+  top: 200px;
+  right: 700px;
+
+  font-size: 20px;
+}
+
+.diary a,
+.diaries a {
+  color: black;
+  text-decoration: none;
+}
+
+.diary a:hover {
+  color: white;
+  background-color: black;
+}
