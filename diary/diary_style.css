@@ -15,10 +15,10 @@ body {
 }
 
 h1 {
-  position: fixed;
+  position: relative;
+  top: 40px;
   left: 300px;
-
-  font-size: 70px;
+  font-size: 64px;
 }
 
 .slider {
@@ -56,12 +56,13 @@ h1 {
 }
 
 .comment {
-  position: fixed;
-  left: 300px;
-  top: 200px;
-  right: 700px;
-
+  position: relative;
+  margin-left: 270px;
+  margin-right: auto;
+  max-width: 800px;
   font-size: 20px;
+  line-height: 1.6;
+  padding: 2em;
 }
 
 .diary a,
@@ -73,4 +74,14 @@ h1 {
 .diary a:hover {
   color: white;
   background-color: black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DotGothic16", sans-serif;
+  background-color: azure;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
