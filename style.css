@@ -8,21 +8,25 @@
   font-style: normal;
 }
 
+html,
 body {
-  width: 97vw;
-  height: 98.3vh;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
   background-image: url("back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  position: relative;
 
   color: white;
   font-family: "DotGothic16";
 }
 
 h1 {
-  position: fixed;
+  position: absolute;
   bottom: 400px;
   right: 50px;
 
@@ -54,12 +58,16 @@ h1 {
   margin: 0 0 10px 2px;
 }
 
-.diary a {
+.myself a,
+.diary a,
+.sns a {
   color: white;
   text-decoration: none;
 }
 
-.diary a:hover {
+.myself a:hover,
+.diary a:hover,
+.sns a:hover {
   color: black;
   background-color: white;
 }

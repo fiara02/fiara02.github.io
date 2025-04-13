@@ -60,18 +60,24 @@ h1 {
   margin-left: 270px;
   margin-right: auto;
   max-width: 800px;
+
   font-size: 20px;
   line-height: 1.6;
   padding: 2em;
 }
 
+.myself a,
 .diary a,
-.diaries a {
+.diaries a,
+.sns a {
   color: black;
   text-decoration: none;
 }
 
-.diary a:hover {
+.myself a:hover,
+.diary a:hover,
+.diaries a:hover,
+.sns a:hover {
   color: white;
   background-color: black;
 }
